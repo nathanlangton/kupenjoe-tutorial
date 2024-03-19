@@ -3,7 +3,7 @@
 	"id": "kupenjoetoutrial",
 	"version": "${version}",
 	"name": "KupenJoeToutrial",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Working on this is Nathan Himself!",
 	"authors": [
 		"Me!"
 	],
@@ -11,15 +11,18 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/kupenjoetoutrial/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.skelxton.KupenJoeToutrial"
+			"com.skelxton.KupenJoeToutrialMod"
+		],
+		"client": [
+			"com.skelxton.KupenJoeToutrialModClient"
 		],
 		"fabric-datagen": [
-			"com.skelxton.KupenJoeToutrialDataGenerator"
+			"com.skelxton.KupenJoeToutrialModDataGenerator"
 		]
 	},
 	"mixins": [
