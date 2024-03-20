@@ -1,5 +1,6 @@
 package com.skelxton;
 
+import com.skelxton.item.ModItemGroups;
 import com.skelxton.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class KupenJoeToutrialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
